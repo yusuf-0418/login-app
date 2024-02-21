@@ -1,0 +1,24 @@
+POST http://localhost:3000/register 
+Content-Type: application/json
+
+{
+    "fullName":"Mohammad dd Baba",
+    "phoneNumber":"770203698",
+    "email":"yusuf@gddmail.com",
+    "password":"yusuf",
+    "companyName":"Mahinssdra",
+    "agencyMember":false
+}
+
+###
+
+POST http://localhost:3000/login 
+Content-Type: application/json 
+
+{
+    "email":"yusufbabamhmd8@gmail.com",
+    "password":"Yusuf"
+}
+
+###
+GET http://localhost:3000/users
